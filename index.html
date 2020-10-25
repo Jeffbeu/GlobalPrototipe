@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Bem vindo</title>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="loading-page">
+            <div class="counter">
+                  <h1>0</h1>
+                  <center><h2>Carregando...</h2></center>
+            </div>
+      </div>
+
+      <script type="text/javascript">
+
+      $(document).ready(function() {
+
+      var counter = 0;
+      var c = 0;
+      var i = setInterval(function() {
+
+      $(".loading-page .counter h1").html(c);
+      $(".loading-page").css("width", c + "%");
+
+      counter++;
+      c++;
+      if(counter == 101) {
+            clearInterval(i);
+            
+            window.open("Home.html", "fadeout is ease");
+      }
+
+}, 80);
+
+});
+
+      </script>
+</body>
+</html>
