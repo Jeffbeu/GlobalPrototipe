@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Douglas - Portifolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+      
+  <!-- icons -->
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+  <!-- AnimeJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  
+</head>
+<body>
+<style>
+  .aaa{
+    color:whitesmoke;
+  }
+  .slider--item-image1{
+    float:right;
+    width:  30%;
+    text-align: center;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+
+  }
+ .java{
+   position: absolute;
+   left: 90px;
+   top: 70px;
+ }
+ 
+</style>
+<!--notificação para janelas de visualização pequenas e smartphones orientados para paisagem -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logo.png" alt="Global">
+    <p>Global</p>
+  </a>
+  <p class="device-notification--message">Olá Meu Nome é Douglas e eu sou Front-End Developer</p>
+</div>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/logo.png" alt="Global">
+            <p>Global</p>
+          </a>
+          
+          <!-- <button class="header--cta cta">Contato
+            <a href="#"></a>
+          </button> -->
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Portifolio</span></li>
+            <li><span>Sobre Mim</span></li>
+            <li><span>Contato</span></li>
+            
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Olá 
+                  Meu 
+                  Nome é
+                  Douglas 
+                  e Sou 
+                  Front-End 
+                  Developer</h1>
+                <button class="aaa"><a href="Curriculo - Douglas Oliveira.docx" class="aaa" download>Baixar CV</a>
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                  
+                </button>
+                <img src="assets/img/introduction-visual.png" alt="Welcome">
+              </div>
+              
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>portifolo</h2>
+              <center><h4>Aqui Você pode Alguns dos meu projetos feitos</h4></center>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/fotoefeito.jpg" alt="Parnaioca">
+                      </div>
+                      <p class="slider--item-title">Sistema de gerenciamento de vendas</p>
+                      <p class="slider--item-description">Projeto integrador de HTML CSS onde foi feito um sistema de gerenciamento financeiro somente visual </p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/fotoefeitos.com_.jpg" alt="Ecommerce">
+                      </div>
+                      <p class="slider--item-title">Parnaioca Sistema de Ecommerce</p>
+                      <p class="slider--item-description">Projeto Interador Sistema Ecommerce integrado junto com sistema de reserva de quarto</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/fotoefeitos.com_0.jpg" alt="reserva">
+                      </div>
+                      <p class="slider--item-title">Parnaioca Sistema de Reserva</p>
+                      <p class="slider--item-description">Projeto Interador Sistema para reserva de quarto</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <h1>Olá</h1><br><h7></h7>Olá!! Eu sou o Douglas, estudante de T.I<br>
+
+                  Estou terminando agora meu curso de T.I, Gostei muito do curso <br>
+                  
+                  Quero trabalhar na area de <br>desenvolvimento WEB como font-end<br>
+                   Meu objetivo é seguir na area da programação <br>construir sites que forneçam 
+                  
+                  boas experiências <br>perfeitas e de alto desempenho como é pedido no mercado<br>
+                  
+                  Estou terminando meu curso de TI <br>e no futuro pretendo seguir na area<br>
+                  fazendo uma faculdade ou graduação<br> estudando e aprofundando mais o meu conhecimento <br>sobre Front-End.
+                  
+                  Ainda sou um iniciante <br>Aqui estão as tecnologias que venho estudando <br>HTML, CSS3, JAVASCRIPT, ANGULAR.</h2>
+                 
+                  
+                  
+                </a>
+                
+                <img src="assets/img/programador-trabalhando-em-estilo-isometrico_52683-16805-removebg-preview.png" alt="sobre" >
+              </div>
+              
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <p>Fale Comigo </p>
+                    
+                    <a href="tel:+5521959041040">Meu Whatsapp +55 21 959041040</a>
+                  </div>
+                  <ul class="modal--options">
+                    <li><a href="https://www.facebook.com/profile.php?id=100003966135564">Facebook</a></li>
+                    <li><a href="https://github.com/Jeffbeu">GITHUB</a></li>
+                    <li><a href="mailto:douglas-oliveira12@hotmail.com">E-mail</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+
+
+</body>
+</html>
