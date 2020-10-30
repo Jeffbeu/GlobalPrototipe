@@ -10,7 +10,7 @@ function typeWriter(elemento) {
   textArray.forEach(function (letra, index) {
     setTimeout(function () {
       return elemento.innerHTML += letra;
-    }, 50 * index);
+    }, 40 * index);
   });
 }
 

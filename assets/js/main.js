@@ -6,7 +6,7 @@ function typeWriter(elemento){
 	const textArray = elemento.innerHTML.split('');
 	elemento.innerHTML = ''
 	textArray.forEach((letra, index)=>{
-		setTimeout(() => elemento.innerHTML += letra, 50 * index)
+		setTimeout(() => elemento.innerHTML += letra, 40 * index)
 	});
 }
 const titulo = c('h1')
